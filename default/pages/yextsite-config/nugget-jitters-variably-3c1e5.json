@@ -1,0 +1,28 @@
+{
+  "$id": "nugget-jitters-variably-3c1e5-${{businessId}}",
+  "$schema": "https://schema.yext.com/config/pages/yextsite-config/v1",
+  "siteName": "Survey Site",
+  "repoConfig": "flyable-tacky-thrower-d1e91",
+  "siteSettings": {
+    "autoDeploy": true,
+    "autoStage": true,
+    "autoPublish": false,
+    "pullRequestsEnabled": false,
+    "stagingCredentials": {
+      "password": "",
+      "username": ""
+    }
+  },
+  "branches": [
+    {
+      "name": "master",
+      "envVars": [
+        {
+          "key": "YEXT_PUBLIC_apiKey",
+          "value": "${{apiKey}}"
+        }
+      ],
+      "isProductionBranch": true
+    }
+  ]
+}

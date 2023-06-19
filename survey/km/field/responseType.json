@@ -1,0 +1,31 @@
+{
+  "$id": "survey_responseType",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Response Type",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "optionType": {
+      "option": [
+        {
+          "displayName": "Single-line Text",
+          "textValue": "SINGLE-LINE_TEXT"
+        },
+        {
+          "displayName": "Multi-line Text",
+          "textValue": "MULTI-LINE_TEXT"
+        },
+        {
+          "displayName": "Single-option Select",
+          "textValue": "SINGLE-OPTION_SELECT"
+        },
+        {
+          "displayName": "Multi-option Select",
+          "textValue": "MULTI-OPTION_SELECT"
+        }
+      ]
+    }
+  },
+  "typeId": "option"
+}

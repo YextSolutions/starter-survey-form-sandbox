@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schema.yext.com/config/km/settings/v1",
+  "primaryEntityType": "location",
+  "entityTypeSettings": [
+    {
+      "entityType": "survey_survey",
+      "defaultFieldEligibilityGroup": "survey_survey.default",
+      "disabled": false
+    },
+    {
+      "entityType": "survey_surveyResponse",
+      "defaultFieldEligibilityGroup": "survey_surveyResponse.default",
+      "disabled": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "$id": "survey_survey.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Survey-default",
+  "entityType": "survey_survey",
+  "fields": [
+    "description",
+    "photoGallery",
+    "slug",
+    "survey_prompts",
+    "survey_surveyCoverImage",
+    "survey_surveyTitle"
+  ],
+  "required": [
+    "survey_surveyTitle"
+  ]
+}

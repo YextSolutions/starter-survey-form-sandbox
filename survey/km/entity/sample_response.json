@@ -1,0 +1,31 @@
+{
+  "$id": "survey_sample_response",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "name": "Survey Response on 2023-06-19T18:49:18.921Z",
+    "survey_promptResponses": [
+      {
+        "prompt": "What is your name?",
+        "promptResponse": "Jane Doe"
+      },
+      {
+        "prompt": "Which of the following products did you use?",
+        "promptResponse": "Product 1,Product 2"
+      },
+      {
+        "prompt": "How likely are you to recommend our services to a friend?",
+        "promptResponse": "Very Likely"
+      },
+      {
+        "prompt": "Any additional questions or concerns?",
+        "promptResponse": "None!"
+      }
+    ],
+    "survey_surveyCompleted": [
+      "survey_sample-survey-customer-feedback"
+    ]
+  },
+  "entityType": "survey_surveyResponse",
+  "labels": []
+}

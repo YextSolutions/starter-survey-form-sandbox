@@ -1,0 +1,36 @@
+{
+  "$id": "survey_promptResponse",
+  "$schema": "https://schema.yext.com/config/km/field-type/v1",
+  "description": "",
+  "displayName": "Prompt Response",
+  "type": {
+    "structType": {
+      "property": [
+        {
+          "name": "prompt",
+          "displayName": "Prompt",
+          "isRequired": true,
+          "typeId": "string",
+          "type": {
+            "stringType": {
+              "stereotype": "SIMPLE",
+              "maxLength": 100000
+            }
+          }
+        },
+        {
+          "name": "promptResponse",
+          "displayName": "Prompt Response",
+          "isRequired": false,
+          "typeId": "string",
+          "type": {
+            "stringType": {
+              "stereotype": "MULTILINE",
+              "maxLength": 100000
+            }
+          }
+        }
+      ]
+    }
+  }
+}

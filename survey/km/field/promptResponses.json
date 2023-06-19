@@ -1,0 +1,15 @@
+{
+  "$id": "survey_promptResponses",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Prompt Responses",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "survey_promptResponse",
+      "maxLength": 5000
+    }
+  },
+  "typeId": "list"
+}

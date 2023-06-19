@@ -1,0 +1,63 @@
+{
+  "$id": "survey_survey",
+  "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
+  "entityType": "survey_survey",
+  "displayName": "Survey",
+  "presentationEntries": [
+    {
+      "displayName": "Content",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Core Information",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "name",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "entityId",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "survey_surveyTitle",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "description",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "survey_prompts",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "slug"
+        },
+        {
+          "id": "photoGallery"
+        },
+        {
+          "id": "survey_surveyCoverImage"
+        }
+      ]
+    },
+    {
+      "displayName": "Other",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Internal Use Only",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "folder"
+        },
+        {
+          "id": "labels"
+        }
+      ]
+    }
+  ]
+}

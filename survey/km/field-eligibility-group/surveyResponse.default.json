@@ -1,0 +1,13 @@
+{
+  "$id": "survey_surveyResponse.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Survey Response-default",
+  "entityType": "survey_surveyResponse",
+  "fields": [
+    "survey_promptResponses",
+    "survey_surveyCompleted"
+  ],
+  "required": [
+    "survey_surveyCompleted"
+  ]
+}

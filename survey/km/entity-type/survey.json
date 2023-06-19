@@ -1,0 +1,7 @@
+{
+  "$id": "survey_survey",
+  "$schema": "https://schema.yext.com/config/km/entity-type/v2",
+  "description": "",
+  "displayName": "Survey",
+  "pluralDisplayName": "Surveys"
+}

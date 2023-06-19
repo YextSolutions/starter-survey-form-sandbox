@@ -1,0 +1,70 @@
+{
+  "$id": "survey_prompt",
+  "$schema": "https://schema.yext.com/config/km/field-type/v1",
+  "description": "",
+  "displayName": "Prompt",
+  "type": {
+    "structType": {
+      "property": [
+        {
+          "name": "promptText",
+          "displayName": "Prompt Text",
+          "isRequired": true,
+          "typeId": "string",
+          "type": {
+            "stringType": {
+              "stereotype": "SIMPLE",
+              "maxLength": 100000
+            }
+          }
+        },
+        {
+          "name": "promptType",
+          "displayName": "Prompt Type",
+          "isRequired": true,
+          "typeId": "option",
+          "type": {
+            "optionType": {
+              "option": [
+                {
+                  "displayName": "Short response",
+                  "textValue": "Short response"
+                },
+                {
+                  "displayName": "Long response",
+                  "textValue": "Long response"
+                },
+                {
+                  "displayName": "Single-option select",
+                  "textValue": "Single-option select"
+                },
+                {
+                  "displayName": "Multi-option select",
+                  "textValue": "Multi-option select"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "options",
+          "displayName": "Options",
+          "isRequired": false,
+          "typeId": "list",
+          "type": {
+            "listType": {
+              "typeId": "string",
+              "maxLength": 5000,
+              "type": {
+                "stringType": {
+                  "maxLength": 100000,
+                  "stereotype": "SIMPLE"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "$id": "survey_sample-survey-customer-feedback",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "description": "Please fill out this survey with feedback from your experience.",
+    "name": "Sample Survey - Customer Feedback",
+    "slug": "customer-feedback-form",
+    "survey_prompts": [
+      {
+        "promptText": "What is your name?",
+        "promptType": "Short response"
+      },
+      {
+        "options": [
+          "Product 1",
+          "Product 2",
+          "Product 3"
+        ],
+        "promptText": "Which of the following products did you use?",
+        "promptType": "Multi-option select"
+      },
+      {
+        "options": [
+          "Very likely",
+          "Likely",
+          "Somewhat likely",
+          "Not likely"
+        ],
+        "promptText": "How likely are you to recommend our services to a friend?",
+        "promptType": "Single-option select"
+      },
+      {
+        "promptText": "Any additional questions or concerns?",
+        "promptType": "Long response"
+      }
+    ],
+    "survey_surveyCoverImage": {
+      "height": 564,
+      "thumbnails": [
+        {
+          "height": 564,
+          "url": "https://a.mktgcdn.com/p/rWqWxqGbx6uCb2JjrPp4htt05lAegH7XaygChY5ZDaA/868x564.png",
+          "width": 868
+        },
+        {
+          "height": 402,
+          "url": "https://a.mktgcdn.com/p/rWqWxqGbx6uCb2JjrPp4htt05lAegH7XaygChY5ZDaA/619x402.png",
+          "width": 619
+        },
+        {
+          "height": 390,
+          "url": "https://a.mktgcdn.com/p/rWqWxqGbx6uCb2JjrPp4htt05lAegH7XaygChY5ZDaA/600x390.png",
+          "width": 600
+        },
+        {
+          "height": 127,
+          "url": "https://a.mktgcdn.com/p/rWqWxqGbx6uCb2JjrPp4htt05lAegH7XaygChY5ZDaA/196x127.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/rWqWxqGbx6uCb2JjrPp4htt05lAegH7XaygChY5ZDaA/868x564.png",
+      "width": 868
+    },
+    "survey_surveyTitle": "Customer Feedback Form"
+  },
+  "entityType": "survey_survey",
+  "labels": []
+}
