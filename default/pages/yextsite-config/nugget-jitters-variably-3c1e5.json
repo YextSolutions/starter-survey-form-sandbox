@@ -2,7 +2,7 @@
   "$id": "nugget-jitters-variably-3c1e5-${{businessId}}",
   "$schema": "https://schema.yext.com/config/pages/yextsite-config/v1",
   "siteName": "Survey Site",
-  "repoConfig": "flyable-tacky-thrower-d1e91",
+  "repoConfig": "survey_flyable-tacky-thrower-d1e91",
   "siteSettings": {
     "autoDeploy": true,
     "autoStage": true,
