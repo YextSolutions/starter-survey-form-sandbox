@@ -1,5 +1,5 @@
 {
-  "$id": "nugget-jitters-variably-3c1e5-${{businessId}}",
+  "$id": "survey_nugget-jitters-variably-3c1e5-2674922",
   "$schema": "https://schema.yext.com/config/pages/yextsite-config/v1",
   "siteName": "Survey Site",
   "repoConfig": "survey_flyable-tacky-thrower-d1e91",
@@ -19,7 +19,7 @@
       "envVars": [
         {
           "key": "YEXT_PUBLIC_apiKey",
-          "value": "${{apiKey}}"
+          "value": "a09d49a4812664ee55fedc7bfb32cf43"
         }
       ],
       "isProductionBranch": true
