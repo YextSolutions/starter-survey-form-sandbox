@@ -1,6 +1,6 @@
 {
   "$id": "flyable-tacky-thrower-d1e91",
   "$schema": "https://schema.yext.com/config/pages/repository/v1",
-  "repoUrl": "github.com/yext-pages/starter-survey-sandbox-${{businessId}}",
-  "targetRepo":"https://github.com/yext-pages/starter-survey-template-repo-sandbox"
+  "repoUrl": "github.com/yext-pages/starter-survey-${{businessId}}",
+  "templateRepo":"github.com/yext-pages/starter-survey-template-repo-sandbox"
 }
