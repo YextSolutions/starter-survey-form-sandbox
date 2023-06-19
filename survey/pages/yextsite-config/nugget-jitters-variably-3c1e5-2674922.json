@@ -19,7 +19,7 @@
       "envVars": [
         {
           "key": "YEXT_PUBLIC_apiKey",
-          "value": "a09d49a4812664ee55fedc7bfb32cf43"
+          "value": "${{apiKey}}"
         }
       ],
       "isProductionBranch": true
